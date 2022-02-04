@@ -1,6 +1,14 @@
 {
     "name": "nonaybay-efraim-project",
     "version": "0.0.1",
+    "people": {
+        "name": "Rafael Venâncio",
+        "email": "rafaelvenancio@protonmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nonaybay/efraim-project.git"
+    },
     "devDependencies": {
         "cz-conventional-changelog": "^3.3.0"
     },
