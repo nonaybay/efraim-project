@@ -1,0 +1,16 @@
+name: Github Basic Workflow
+on:
+  push:
+    branches:
+      - main
+      - master
+      - development
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: github-recommend-default-action
+        run: echo -ne "Hello Github $(date)" | sha512sum
